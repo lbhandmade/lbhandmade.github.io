@@ -1,42 +1,60 @@
-/* Estilos generales */
+/* Estilo general */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f3ecea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    background-color: #fbf2ef;
-    text-align: center;
 }
 
-/* Encabezado */
-header {
-    background-color: #fbf2ef;
+/* Contenedor principal */
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo redondo */
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Botón con fondo blanco */
+.link-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
     color: black;
-    text-align: center;
-    padding: 20px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
-h1 {
-    margin: 0;
-}
-
-/* Secciones */
-main {
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 1000px;
-}
-
-h2 {
-    color: #333;
-}
-
-/* Pie de página */
-footer {
+.link-button:hover {
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+
+/* Redes sociales */
+.social-links a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #555;
 }
