@@ -43,7 +43,7 @@ h1 {
 .link-button {
     display: block;
     text-decoration: none;
-    color: black;
+    color: #9c1a4b;
     background-color: white;
     padding: 15px;
     margin: 15px auto;
@@ -72,7 +72,7 @@ h1 {
 .social-links a {
     font-size: 24px;
     text-decoration: none;
-    color: black;
+    color: #9c1a4b;
     transition: color 0.3s ease;
 }
 
