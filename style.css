@@ -11,7 +11,7 @@ body {
     background-color: #f8f4f1; /* Color beige claro */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flez-start;
     min-height: 100vh;
     text-align: center;
 }
@@ -20,7 +20,7 @@ body {
 .container {
     width: 90%;
     max-width: 400px;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Logo redondo */
