@@ -8,7 +8,7 @@
 /* Fondo de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4edeb; /* Color beige claro */
+    background-color: #f8f4f1; /* Color beige claro */
     display: flex;
     justify-content: center;
     align-items: flex-start;
