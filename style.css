@@ -69,7 +69,7 @@ h1 {
     flex-direction: row; /* Alinea los iconos en fila en lugar de columna */
     justify-content: center; 
     gap: 20px; /* Ajusta el espacio entre los iconos */
-    margin-top: 20px;
+    margin-top: 40px;
     align-items: center; /* Centra los logos */
 }
 
