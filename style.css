@@ -1,23 +1,29 @@
-/* Estilo general */
+/* Resetear margen y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3ecea;
+    background-color: #f4eeec;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    min-height: 100vh;
+    text-align: center;
 }
 
 /* Contenedor principal */
 .container {
-    text-align: center;
-    width: 90%;
-    max-width: 400px;
     background-color: white;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
 }
 
 /* Logo redondo */
@@ -28,15 +34,21 @@ body {
     margin-bottom: 15px;
 }
 
+/* Nombre */
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
 /* Botón con fondo blanco */
 .link-button {
-    display: inline-block;
-    margin: 10px 0;
-    padding: 10px 20px;
+    display: block;
     text-decoration: none;
     color: black;
     background-color: white;
     border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
     border-radius: 8px;
     transition: all 0.3s ease;
 }
@@ -46,7 +58,7 @@ body {
     color: white;
 }
 
-/* Redes sociales */
+/* Enlaces a redes sociales */
 .social-links a {
     display: block;
     margin: 10px 0;
